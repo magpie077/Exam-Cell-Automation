@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link type="text/css" rel="stylesheet" href="Classrooms.css"/>
+<script src="Classrooms.js"></script>
+
+<div class="row">
+<button class="classbutton" id="b1" onclick="changebuttoncolor('b1')" value="A301">A301</button> 
+<button class="classbutton" id="b2" onclick="changebuttoncolor('b2')" value="A302">A302</button>
+<button class="classbutton" id="b3" onclick="changebuttoncolor('b3')" value="A303">A303</button>
+<button class="classbutton" id="b4" onclick="changebuttoncolor('b4')" value="A304">A304</button>
+<button class="classbutton" id="b5" onclick="changebuttoncolor('b5')" value="A305">A305</button>
+</div>
+
+<div class="row">
+<button class="classbutton" id="b6" onclick="changebuttoncolor('b6')" value="C301">C301</button> 
+<button class="classbutton" id="b7" onclick="changebuttoncolor('b7')" value="C302">C302</button>
+<button class="classbutton" id="b8" onclick="changebuttoncolor('b8')" value="C303">C303</button>
+<button class="classbutton" id="b9" onclick="changebuttoncolor('b9')" value="C304">C304</button>
+<button class="classbutton" id="b10" onclick="changebuttoncolor('b10')" value="C305">C305</button>
+
+</div>
+<form id="f1"action="Classrooms.php"method="POST">
+<button  id="submit"onclick='GetID()'>Enter</button>
+<input name="classes" type="hidden" value="">
+</form>
+</body>
+</html>

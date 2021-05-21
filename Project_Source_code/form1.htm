@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>
+			Form
+        </title>
+		<link rel="stylesheet" href='form1.css'>
+		<script src="MyJS.js"></script>
+
+	</head>
+
+	<body background="blue-and-black-wallpapers-9.jpg" alink=white vlink=white>
+	<div>
+		<header>
+			<h2> Form </h2> 
+		</header>
+		<br><br> 
+		<div class="topnav">
+            <a href="form1.htm"> Form </a>
+            <a href="news.htm"> News </a>
+            <a href="contact.htm"> Contact </a>
+            <div class="topnav-right">
+                <a href="#search">Search</a>
+                <a href="about.htm">About</a>
+            </div>
+        </div>
+        <div id="mysidenav" class="sidenav">
+            <a id="m1" href="academic_cal.htm">Holiday List</a>
+        </div>
+	
+		<br><br><br>
+
+		<form action="http://localhost:8084/demo/newentry.jsp" id="form" name="myForm" method="get">
+			<table class="taba" width=500 border='0' cellspacing='1' cellpadding='2' align='center'>
+				<th size='40'></th>
+				<th></th>
+				<tr id="q">
+					<td width='150'><b> First Name* </b></td>
+					<td width='350'> <input id="x_fname" type='text' value="" name="xfname" size=30 required></td>
+				</tr>
+				<tr>
+					<td width='150'><b> Last Name* </b></td>
+					<td width='350'> <input id="x_lname" type='text' value="" name="xlname" size=30 required></td>
+				</tr>
+				<tr>
+					<td width='150'><b> PRN* </b></td>
+					<td witth='350'> <input id="x_prn" value="" type='text' name="xprn" size=30 required></td>
+				</tr>
+				<tr>
+					<td width='150'><b> Department* </b></td>
+					<td width='350'> <input type='text' value="" name="xdept" placeholder = 'CS/IT/EnTC' size=30 required></td>
+				</tr>	
+				<tr>
+					<td width='150'><b> Pattern* </b></td>
+					<td width='350'> <input type='text' value="" name="xpattern" placeholder = '2008/2012/2015' size=30 required></td>
+				</tr>
+				<tr>
+					<td width='150'><b> Current Semester* </b></td>
+					<td width='350'> <input type='text' value="" name="xsemester" placeholder = '1 to 8' size=30 required></td>
+				</tr>
+				<tr>
+					<td width='150'><b> Password* </b></td>
+					<td width='350'> <input type='password' value="" name="xpassword" placeholder = '' size=30 required></td>
+				</tr>
+
+			</table>
+			<br>
+			<center>
+
+			<input type="submit" value="Submit" name="Submit" onclick="aalert()">
+            <input type="reset" value="Reset">
+			</center>
+
+		</form>
+			<p id="sign" align=center>Already Signed up?<br><br><a href="signin.htm">Click Here to Sign-in</a></p>
+        </div>
+	</body>
+
+</html>

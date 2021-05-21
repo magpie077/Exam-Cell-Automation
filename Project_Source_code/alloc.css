@@ -1,0 +1,12 @@
+td,th
+{
+	width:150px;
+	height:50px;
+}
+#tab1
+{
+	background-color:white;
+	color:white;
+	border:2px;
+	border-color:white;
+}

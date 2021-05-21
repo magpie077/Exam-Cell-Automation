@@ -1,0 +1,4 @@
+"<button class='block' id='".$r."' onclick='showMap(".$row2['Total'].",\"".$l1[$i]."\",'".$r."')' >".$r."</button>"
+"<button class='block' id='$r' onclick='showMap(".$row2['Total'].",'".$l1[$i]."','".$r."')' >$r</button>"
+
+(".$row2['Total'].",'".$l1[$i]."','".$r."')

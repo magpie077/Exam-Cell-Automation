@@ -1,0 +1,229 @@
+	<style>
+
+
+		body
+`		{
+			color: white;
+		}
+		q
+		{
+			background-color: white;
+		}
+
+		header, footer
+		{
+			padding: 1em;
+			color: white;
+			background-color: black;
+			clear: left;
+			text-align: center;
+		}
+
+		nav
+		{
+			float: left;
+			color: white;
+			background-color: white;
+			max-width: 160px;
+			margin: 1;
+			padding: 0em;
+		}
+
+		.linker
+		{
+			font-size: 20px;
+			color:white;
+			margin: 1;
+			padding: 8px 20px;
+		}
+		
+        .topnav
+        {
+            background-color: black;
+            overflow: hidden;
+
+        }
+
+        .topnav a
+        {
+            float: left;
+            color: azure;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover
+        {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active
+        {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .topnav-right
+        {
+            float: right;
+        }
+
+        #mysidenav a
+        {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        #mysidenav a:hover
+        {
+            left: 0;
+        }
+
+        #m1
+        {
+            top: 200px;
+            background-color: blue;
+        }
+        #m2
+        {
+            top: 290px;
+            background-color: blueviolet;
+        }
+        #m3
+        {
+            top: 350px;
+            background-color: darkcyan;
+        }
+		
+		.taba
+		{
+			color: white;
+		}
+		
+		#sign
+		{
+			color: white;
+			align: center;
+			padding: 10px 20px;
+			font-size: 20px;
+		}
+
+        input[type=text], select
+        {
+            width: 100%;
+            padding: 8px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: white;
+            
+        }
+		input[type=password], select
+        {
+            width: 100%;
+            padding: 8px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: white;
+        }
+
+        input[type=submit]
+        {
+            width: 8%;
+            background-color: #512352;
+            color: white;
+            padding: 8px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type=reset]
+        {
+            width: 8%;
+            background-color: #512468;
+            color: white;
+            padding: 8px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover
+        {
+            background-color: green;
+        }
+        input[type=reset]:hover
+        {
+            background-color: red;
+        }
+
+	</style>
+
+#form
+{
+    font-language-override: normal;
+    font-family: cursive;
+}
+
+#last
+{
+    text-decoration: underline;
+    color: black;
+    text-decoration-style: solid;
+    text-emphasis-color: black;
+}
+
+.calender
+{
+    background-color: white;
+    color:black;
+}
+
+div.tab
+{
+    font-style: normal;
+    font-family: monospace;
+}
+
+.contact
+{
+    background-color: white;
+    color: black;
+}
+
+.about
+{
+    color: black;
+    padding-right: 175px;
+    padding-left: 200px;
+    background-color: aliceblue;
+}
+
+#more
+{
+    font-size: 14px;
+    color: blue;
+}
+
+#list_tab
+{
+	color: black;
+	font-size: 19px;
+}

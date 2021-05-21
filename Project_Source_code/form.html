@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+
+
+<body>
+
+<div class="form">
+<form action="p2_data.php" method="POST">
+<link type="text/css" rel="stylesheet" href="form.css"/>
+<label>DATE:<label>
+<input type = "date" id="dt"name="date"><br>
+<label>YEAR:</label>
+  <select class="dropdown" id="yr"name = "year">
+	     <option value="FE">FE</option>
+             <option value="SE">SE</option>
+             <option value="TE">TE</option>
+             <option value="BE">BE</option>
+          </select><br>
+
+<label>BRANCH:</label>
+ <select class="dropdown" id="drp"name = "branch">
+	     <option value="COMP">COMP</option>
+             <option value="IT">IT</option>
+             <option value="E&TC">E&TC</option>
+             <option value="AS">AS</option>
+          </select><br>
+
+<label>WING:</label>
+ <select class="dropdown" id="drp2"name = "wing">
+	     <option value="A">A</option>
+             <option value="B">B</option>
+             <option value="C">C</option>
+             <option value="H">H</option>
+          </select><br>
+<input id="sub"type = "submit" value="ALLOCATE">
+</form>
+</div>
+</body>
+
+</html>
