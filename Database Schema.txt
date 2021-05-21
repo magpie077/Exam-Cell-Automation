@@ -1,0 +1,17 @@
+Database Name : Exam_Cell
+
+Tables in database
+
+1. students (PRN, First Name, Last Name, Current Semester, Pattern, Department, Password, Roll Number, Status)
+
+2. subjects (Subject Code, Name, Credits, Pattern, Semester)
+
+3. date (Date of Exam, Branch, Subject)
+
+4. allocation (Subject, Seat Number, Block)
+
+5. admin (Username, Password)
+
+6. wing (Wing, Classroom)
+
+7. Seat Arrangement (Block, Start Seat no., End Seat no., Staff, Count)
